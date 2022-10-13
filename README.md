@@ -1,5 +1,5 @@
 # I'm learning Front-End Web Development With Kodluyoruz.org
-Hello my name is Sinan from Turkey. And I'm learning Front-End web development with kodluyoruz.org
+Hello my name is Sinan from Turkey. And I'm learning Front-End web development with [kodluyoruz.org][https://kodluyoruz.org/tr/kodluyoruz/]
 ## My Second Work in GitHub
 This is my second repo in GitHub. 
 ## Clone
