@@ -1,0 +1,69 @@
+<!-- 
+    Etiket isimlerini direkt olarak verebiliyoruz
+    + = kardes oge
+    > = icinde oge
+    ^ = yukarı cık ve oge olustur
+    * = kere-çarp kaç öğe istiyorsun
+    lorem = lorem ipsum mıgır metin
+    loremx = x kısmı kelime sayısıdır örneğin lorem4
+    . = class
+    # = id olustur
+ -->
+ <!--  ornek kardes element = + h1+h2+tab -->
+ <h1></h1>
+ <h2></h2>
+ <!-- 
+ornek 2 h1+p+p+p+h2+p+p+p+h3+p, son yazdıgını sil tekrar yaz + tab
+daha kolay yolu ise h1+p*3+h2+p*3+h3+p
+-->
+ <h1></h1>
+ <p></p>
+ <p></p>
+ <p></p>
+ <h2></h2>
+ <p></p>
+ <p></p>
+ <p></p>
+ <h3></h3>
+ <p></p>
+ <!-- h1+p*3+h2+p*3+h3+p -->
+ <h1></h1>
+ <p></p>
+ <p></p>
+ <p></p>
+ <h2></h2>
+ <p></p>
+ <p></p>
+ <p></p>
+ <h3></h3>
+ <p></p>
+
+ <!-- icinde "">"" ul icinde li ul>li*2  -->
+ <ul>
+    <li></li>
+    <li></li>
+ </ul>
+ <!-- yukari cik yani : elementin icine nesne olusturduktan sonra başka bir elemek kullanmak icin örnegin: ul>li*3^h3 -->
+ <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+ </ul>
+ <h3></h3>
+<!-- 
+lorem kullanarak tum varyasyonlarda eklemek icin ornek 
+ul>li*2>lorem1^^p*2>lorem2^h3>lorem1
+-->
+<ul>
+    <li>Lorem.</li>
+    <li>Eius?</li>
+</ul>
+<p>Lorem, ipsum.</p>
+<p>Ex, eveniet.</p>
+<h3>Lorem.</h3>
+<!-- class ozelligi icin "." kullanılır orn: "h3.deneme" -->
+<h3 class="deneme"></h3>
+<!-- id ozelligi icin "#" kullanılır orn:"h3#deneme" -->
+<h3 id="deneme"></h3>
+ <!-- id ve class birlikte kullanım icin orn: "h3#deneme.deneme1>lorem1"-->
+<h3 id="deneme" class="deneme1">Lorem.</h3>
