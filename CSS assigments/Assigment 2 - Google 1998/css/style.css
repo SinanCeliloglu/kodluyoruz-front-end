@@ -1,21 +1,5 @@
-/* table {
-    display: table;
-    border-collapse: separate;
-    box-sizing: border-box;
-    text-indent: initial;
-    white-space: normal;
-    line-height: normal;
-    font-weight: normal;
-    font-size: medium;
-    font-style: normal;
-    color: -internal-quirk-inherit;
-    text-align: start;
-    border-spacing: 2px;
-    border-color: grey;
-    font-variant: normal;
-} */
+
 body{
-    /* max-width: 1920px; */
     margin: auto;
     max-width: 50px auto;
     padding-left: 5%;
@@ -28,9 +12,6 @@ body{
     background-color: #EEEEEE;
     text-align: center;
 }
-/* .logo{
-    margin: auto;
-    padding-left: 10%;} */
 
 .box1{
     background-color: #7EE5DA;
