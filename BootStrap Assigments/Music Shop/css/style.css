@@ -1,0 +1,28 @@
+.carousel .item {
+    height: auto;
+    width: 100%;
+  }
+
+.carousel-inner{
+    height: auto;
+    width: 100%;
+    padding-left: 22px;
+}
+body{
+    background-color: #E9ECEF;
+}
+
+.productbox{
+   padding: 20px;
+}
+.listcursorhide{
+    list-style-type:none;
+}
+.productprice{
+    text-shadow: black;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
